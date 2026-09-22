@@ -1,0 +1,27 @@
+# --- Maven / Java ---
+target/
+*.class
+*.jar
+*.war
+
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Secrets (JAMAIS committer une clé API) ---
+.env
+*.env
+
+# --- IDE ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
